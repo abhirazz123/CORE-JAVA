@@ -1,0 +1,27 @@
+package OOPS.variable_copy_demo_OCT_24;
+
+public class Student {
+	int rollNumber;
+	String StudentName;
+	String Addresh;
+	static String CollageName= "MGR";
+	static String CourseName="B.tech";
+
+	public void SatStudentData(int rollNumber, String StudentName, String Addresh) {
+		this.rollNumber = rollNumber;
+		this.StudentName =StudentName;
+		this.Addresh = Addresh;
+	}
+	@Override
+	public String toString() {
+		return "Student [rollNumber=" + this.rollNumber + ", studentName=" + this.StudentName + ", studentAddress="
+				+ this.Addresh + ", College Name " + Student.CollageName + ", Course Name " + Student.CourseName
+				+ " ]";
+	}
+
+}
+
+
+
+
+

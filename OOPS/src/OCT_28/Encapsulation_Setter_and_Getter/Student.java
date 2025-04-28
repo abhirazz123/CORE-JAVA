@@ -1,0 +1,55 @@
+package OCT_28.Encapsulation_Setter_and_Getter;
+
+public class Student {
+	private int StudentId;
+	private String StudentName ;
+	private int StudentMark;
+	private String StudentAdd;
+
+	public Student (int StudentId, String StudentName, int StudentMark, String StudentAdd) {
+		this.StudentId = StudentId;
+		this.StudentName = StudentName;
+		this.StudentMark = StudentMark;
+		this.StudentAdd = StudentAdd;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [StudentId=" + StudentId + ", StudentName=" + StudentName + ", StudentMark=" + StudentMark
+				+ ", StudentAdd=" + StudentAdd + "]";
+	}
+
+	public int getStudentId() {
+		return StudentId;
+	}
+
+	public void setStudentId(int studentId) {
+		StudentId = studentId;
+	}
+
+	public String getStudentName() {
+		return StudentName;
+	}
+
+	public void setStudentName(String studentName) {
+		StudentName = studentName;
+	}
+
+	public int getStudentMark() {
+		return StudentMark;
+	}
+
+	public void setStudentMark(int studentMark) {
+		StudentMark = studentMark;
+	}
+
+	public String getStudentAdd() {
+		return StudentAdd;
+	}
+
+	public void setStudentAdd(String studentAdd) {
+		StudentAdd = studentAdd;
+	}
+
+
+}

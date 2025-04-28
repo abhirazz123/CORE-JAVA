@@ -1,0 +1,20 @@
+package OOPS.variable_copy_demo_OCT_24;
+
+public class Student {
+	int rollNumber;
+	String StudentName;
+	String Addresh;
+	static String CollageName= "MGR";
+	static String CourseName="B.tech";
+	
+	public void SatStudentData(int rollNumber, String StudentName, String Addresh) {
+		this.rollNumber = rollNumber;
+		this.StudentName =StudentName;
+		this.Addresh = Addresh;
+	}
+	public String toSting() {
+		return" Student [rollNumber ="+this.rollNumber +"Student Name= "+this.StudentName + "Addresh = "+this.Addresh+ "CollageName= "+Student.CollageName+
+				"CourseName= "+Student.CourseName;
+	}
+
+}

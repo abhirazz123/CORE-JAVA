@@ -1,0 +1,24 @@
+package OCT_24.variable_copy_demo;
+
+public class Student {
+	int rollNumber;
+	String StudentName;
+	String Addresh;
+	static String CollageName= "MGR";
+	static String CourseName="B.tech";
+
+	public void SatStudentData(int rollNumber, String StudentName, String Addresh) {
+		this.rollNumber = rollNumber;
+		this.StudentName =StudentName;
+		this.Addresh = Addresh;
+	}
+	@Override
+	
+	  public String toString() {
+		return"Student [rollNumber= "+this.rollNumber +"Student Name "+this.StudentName +" Addresh= "+this.Addresh+
+				"Collage Name= "+Student.CollageName+"Course Name= "+Student.CollageName;
+	}
+
+
+
+}

@@ -1,0 +1,12 @@
+package OOPS.variable_copy_demo_OCT_24;
+
+public class Variable_static_or_no_static2
+{
+	long accountNumber;//NSV
+	String customberName;//NSV
+	long mobileNumber;//NSV
+	String cusomberAddresh;//NSV
+	static String IFSCCODE="SBICHE60095";//SV
+	static String branchLoction="chennai";//SV
+	
+}

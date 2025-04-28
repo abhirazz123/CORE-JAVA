@@ -1,0 +1,17 @@
+package OCT_28.method_return_type;
+
+public class Book {
+	private String bookTitle;
+	private String authorName;
+	
+	public Book (String bookTitle, String authorName) {
+		this.bookTitle = bookTitle ;
+		this.authorName = authorName;
+	}
+	@Override
+	public String toString() {
+		return "Book [book Title ="+bookTitle + "author Name:"+authorName+"]";
+		
+	}
+
+}

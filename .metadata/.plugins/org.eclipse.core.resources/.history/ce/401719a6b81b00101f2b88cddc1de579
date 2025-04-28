@@ -1,0 +1,10 @@
+package OOPS.variable_copy_demo_OCT_24;
+
+public class StudentDemo {
+	public static void main(String[] args) {
+		Student raj = new Student();
+		raj.SatStudentData(1007, "Abhishek", "HYD");
+		System.out.println(raj);
+	}
+
+}

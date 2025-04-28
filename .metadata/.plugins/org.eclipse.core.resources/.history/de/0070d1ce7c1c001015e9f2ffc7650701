@@ -1,0 +1,9 @@
+package OOPS.Constructor_OCT_22;
+
+public class Example {
+	public Example () //Constructor
+	{
+		
+	}
+
+}

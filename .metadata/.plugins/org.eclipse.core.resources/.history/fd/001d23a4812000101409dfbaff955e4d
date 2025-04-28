@@ -1,0 +1,10 @@
+package OCT_29.pass_by_value;
+
+public class Customer2 {
+	private double CustomerBill =1200;
+	
+	public double getCustomer() {
+		
+	}
+
+}

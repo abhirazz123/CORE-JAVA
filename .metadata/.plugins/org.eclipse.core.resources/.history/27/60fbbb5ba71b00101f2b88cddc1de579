@@ -1,0 +1,12 @@
+package OOPS.variable_copy_demo_OCT_24;
+
+public class Variable_static_or_no_static2
+{
+	long accountNumber;
+	String customberName;
+	long mobileNumber;
+	String cusomberAddresh;
+	static String IFSCCODE="SBICHE60095";//
+	static String branchLoction="chennai";
+	
+}

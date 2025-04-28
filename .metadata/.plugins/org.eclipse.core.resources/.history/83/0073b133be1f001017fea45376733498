@@ -1,0 +1,28 @@
+package OCT_29.shallow_copy;
+import java.util.*;
+public class Laptop {
+	private String LaptopBrand;
+	private double LaptopPrice;
+
+	public Laptop (String LaptopBrand, double LaptopPrice) {
+		this.LaptopBrand = LaptopBrand;
+		this.LaptopPrice = LaptopPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop [LaptopBrand=" + LaptopBrand + ", LaptopPrice=" + LaptopPrice + "]";
+	}
+	public static Laptop getLaptopobject() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Laptop Brand: ");
+		String brand = sc.next();
+
+		System.out.println("Enter the Laptop Price:");
+		double price = sc.nextDouble();
+
+		return new Laptop (brand, price);
+
+	}
+
+}

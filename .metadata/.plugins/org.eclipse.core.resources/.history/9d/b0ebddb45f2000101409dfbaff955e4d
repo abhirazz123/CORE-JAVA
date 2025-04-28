@@ -1,0 +1,13 @@
+package OCT_29.shallow_copy;
+
+public class LaptopDemo {
+	public static void main(String[] args) {
+		Laptop laptop = new Laptop("HP", 78000);
+		System.out.println(laptop);
+		laptop.setLaptopBrand("Acier");
+		laptop.setLaptopPrice(70000);
+		
+	}
+	
+
+}

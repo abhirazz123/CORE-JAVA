@@ -1,0 +1,30 @@
+package NOV_01.HEAP_and_STACK;
+
+public class Employee {
+	int id =10;
+	public static void main(String[] args) 
+	{
+		int val = 200;
+		Employee e1 = new Employee();
+		e1.id = val;
+		update(e1);
+		System.out.println(e1.id);
+		Employee e2 = new Employee();
+		e2.id =900;
+		switchEmployee(e2,e1);
+	}
+	public  static void update(Employee e) {
+		e.id = 500;
+		e = new Employee();
+		e.id = 400;
+		System.out.println(e.id);
+		
+	}
+	public static void switchEmployee(Employee e1 , Employee e2) {
+		int temp = e1.id;
+		e2 = new Employee();
+		e2.id = temp;
+		
+	}
+
+}

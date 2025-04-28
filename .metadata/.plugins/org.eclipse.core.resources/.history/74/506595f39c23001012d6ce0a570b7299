@@ -1,0 +1,34 @@
+package NOV_01.copy_constructor;
+
+public class Student {
+	private int StudentId;
+	private String StudentName;
+	private String CollageName;
+	private String CorseName;
+	
+	public Student(int StudentId, String StudentName, String CollageName, String CorseName) {
+		this.StudentId = StudentId;
+		this.StudentName = StudentName;
+		this.CollageName = CollageName;
+		this.CorseName = CorseName;
+	}
+	public int getStudentId() {
+		return StudentId;
+		
+	}
+	public String getStudentName() {
+		return StudentName;
+		
+	}
+	public String getCollageName() {
+		return CollageName;
+		
+	}
+	public String getCorsename() {
+		return CorseName;
+		
+	}
+	
+	
+
+}

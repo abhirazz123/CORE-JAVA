@@ -1,0 +1,16 @@
+package NOV_01.instance_block;
+
+public class Demo {
+	public Demo() 
+	{
+		System.out.println("Demo class Contructor");
+	}
+	{
+		System.out.println("NBS");
+	}
+	public static void main(String[] args) {
+		new Demo();
+	}
+	
+
+}

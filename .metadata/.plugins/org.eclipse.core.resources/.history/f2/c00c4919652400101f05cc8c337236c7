@@ -6,7 +6,7 @@ public class Calculate {
 		System.out.println("Sum of "+x+" and "+y+" is: " + (x+y));
 	}
 	public Calculate(int x) {
-		this(100, 200);
+		//this(100, 200);
 		System.out.println("Square of "+x+" is: " +x*x);
 
 	}

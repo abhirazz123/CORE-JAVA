@@ -8,7 +8,6 @@ public class Calculate {
 	public Calculate(int x) {
 		this(100, 200);
 		System.out.println("Square of "+x+" is: " +x*x);
-
+		
 	}
-	
 }

@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Manager"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Student"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Teacher"/>
+    <fullyQualifiedTypeName name="NOV_01.constructor_overloading.Calculate"/>
+    <fullyQualifiedTypeName name="NOV_01.instance_block.Student"/>
+    <fullyQualifiedTypeName name="NOV_01.instance_block.Manager"/>
 </qualifiedTypeNameHistroy>

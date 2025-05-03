@@ -13,5 +13,8 @@ public class Hello
 	{
 		System.out.println("NSB1");
 	}
+	public static void main(String[] args) {
+		new Hello();
+	}
 
 }

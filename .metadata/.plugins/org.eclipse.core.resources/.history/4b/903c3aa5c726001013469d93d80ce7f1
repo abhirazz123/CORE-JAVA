@@ -1,0 +1,29 @@
+package NOV_01.nsv_life_cycle;
+
+public class Customer {
+	private double bill;
+	public Customer() {
+		bill = 100;
+		System.out.println(bill);
+	}{
+		bill = 1000;
+		System.out.println(bill);
+
+	}
+	{
+		bill = 3000;
+		System.out.println(bill);
+	}
+	{
+		bill = 4000;
+		System.out.println(bill);
+	}
+	{
+		bill = 2000;
+		System.out.println(bill);
+	}
+	public static void main(String[] args) {
+		new Customer();
+	}
+
+}

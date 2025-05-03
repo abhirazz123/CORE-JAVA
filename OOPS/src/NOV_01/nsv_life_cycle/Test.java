@@ -1,0 +1,16 @@
+package NOV_01.nsv_life_cycle;
+
+public class Test {
+	int x = 100;//STEP 1
+	{
+		x= 200; // STEP 2
+	}
+	Test (){
+		x = 300; // STEP 3
+	}
+	public static void main(String[] args) {
+		Test t1 = new Test();
+		System.out.println(t1.x);
+	}
+
+}

@@ -1,21 +1,27 @@
 package NOV_01.instance_block;
 
-public class Student {
-	public Student() {
-		this(100,"Abhi");
+class Student
+{
+	public Student()
+	{
+		this(101,"Scott");
 		System.out.println("No Argument Constructor");
+	}
 
+	public Student(int id, String name)
+	{
+		System.out.println("Parameterized Constructor");
 	}
-	public Student(int id , String name ) {
-		System.out.println("Parameterized  Constructor");
-	}
+
 	{
 		System.out.println("Object creation is in process");
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		new Student();
-		System.out.println("--------------");
+		System.out.println(".........");
 		new Student();
+
 	}
 
 }

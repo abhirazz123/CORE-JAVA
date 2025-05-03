@@ -1,0 +1,20 @@
+package NOV_12.super_class_method;
+class Alpha{
+	public String toString() {
+		return "India";
+	}
+}
+class Beta extends Alpha{// Method Overriding
+	public String toString() {
+		return "Hyderbad";
+		
+	}
+}
+
+public class SuperMethodCall {
+	public static void main(String[] args) {
+		Alpha b = new Beta();
+		System.out.println(b.toString());
+	}
+
+}

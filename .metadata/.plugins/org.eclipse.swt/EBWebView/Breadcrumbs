@@ -1,0 +1,94 @@
+3:24:18 Tab26 FinishNav167
+3:24:18 Tab26 PageLoad
+3:24:37 Tab26 StartNav168 #typed
+3:24:37 Tab26 FinishNav168
+3:24:37 Tab26 PageLoad
+3:25:07 Tab26 StartNav169 #typed
+3:25:07 Tab26 FinishNav169
+3:25:07 Tab26 PageLoad
+3:25:13 Tab26 StartNav170 #typed
+3:25:13 Tab26 FinishNav170
+3:25:13 Tab26 PageLoad
+3:25:14 Tab26 StartNav171 #typed
+3:25:14 Tab26 FinishNav171
+3:25:14 Tab26 PageLoad
+3:25:26 Tab26 StartNav172 #typed
+3:25:26 Tab26 FinishNav172
+3:25:26 Tab26 PageLoad
+3:25:34 Tab26 StartNav173 #typed
+3:25:34 Tab26 FinishNav173
+3:25:34 Tab26 PageLoad
+3:25:50 Tab26 StartNav174 #typed
+3:25:50 Tab26 FinishNav174
+3:25:50 Tab26 PageLoad
+3:25:53 Tab26 StartNav175 #typed
+3:25:53 Tab26 FinishNav175
+3:25:53 Tab26 PageLoad
+3:25:54 Tab26 StartNav176 #typed
+3:25:54 Tab26 FinishNav176
+3:25:54 Tab26 PageLoad
+3:26:01 Tab26 StartNav177 #typed
+3:26:01 Tab26 FinishNav177
+3:26:01 Tab26 PageLoad
+3:26:03 Tab26 StartNav178 #typed
+3:26:03 Tab26 FinishNav178
+3:26:03 Tab26 PageLoad
+3:26:19 Microsoft.NewBrowser_Popup
+3:26:19 Microsoft.BrowserList.AddBrowser
+3:26:19 Browser28 Insert active Tab28 at 0
+3:26:19 Tab28 StartNav179 #auto_toplevel
+3:26:19 Tab28 StartNav180 #typed
+3:26:19 Tab28 FinishNav179
+3:26:19 Tab28 PageLoad
+3:26:19 Tab28 FinishNav180
+3:26:19 Tab28 PageLoad
+3:26:20 Tab28 StartNav181 #typed
+3:26:20 Tab28 FinishNav181
+3:26:20 Tab28 PageLoad
+3:26:21 Microsoft.Shutdown.OnWindowClosing
+3:26:21 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+3:26:21 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+3:26:21 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+3:26:21 Tab28 RenderProcessGone
+3:26:21 Browser28 Close Tab28 at 0
+3:26:21 Tab28 WebContentsDestroyed
+3:26:21 Microsoft.Shutdown.OnWindowClosing
+3:26:21 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+3:26:21 Widget Closed: BrowserFrame
+3:26:21 Microsoft.Shutdown.OnWindowClosing
+3:26:21 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+3:26:21 Microsoft.Browser_Removed
+3:26:39 Tab26 StartNav182 #typed
+3:26:39 Tab26 FinishNav182
+3:26:39 Tab26 PageLoad
+3:26:49 Tab26 StartNav183 #typed
+3:26:49 Tab26 FinishNav183
+3:26:49 Tab26 PageLoad
+3:26:58 Tab26 StartNav184 #typed
+3:26:58 Tab26 FinishNav184
+3:26:58 Tab26 PageLoad
+3:27:02 Tab26 StartNav185 #typed
+3:27:02 Tab26 FinishNav185
+3:27:02 Tab26 PageLoad
+3:27:04 Tab26 StartNav186 #typed
+3:27:04 Tab26 FinishNav186
+3:27:04 Tab26 PageLoad
+3:27:05 Tab26 StartNav187 #typed
+3:27:05 Tab26 FinishNav187
+3:27:05 Tab26 PageLoad
+3:27:06 Tab26 StartNav188 #typed
+3:27:06 Tab26 FinishNav188
+3:27:06 Tab26 PageLoad
+3:27:08 Tab26 StartNav189 #typed
+3:27:08 Tab26 FinishNav189
+3:27:08 Tab26 PageLoad
+3:27:27 Tab26 StartNav190 #typed
+3:27:27 Tab26 FinishNav190
+3:27:27 Tab26 PageLoad
+3:28:26 Tab26 StartNav191 #typed
+3:28:26 Tab26 FinishNav191
+3:28:26 Tab26 PageLoad
+3:28:26 Tab26 StartNav192 #typed
+3:28:26 Tab26 FinishNav192
+3:28:26 Tab26 PageLoad
+3:28:34 Microsoft.Shutdown.OnWindowClosing

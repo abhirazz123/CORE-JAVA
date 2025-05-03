@@ -1,0 +1,18 @@
+package NOV_12.Blank_Final_field;
+
+public class Test2 {
+	final int x; // blank final field
+	{
+		m1();
+		x=100;
+	}
+	public void m1() {
+		System.out.println("Default value: "+x);
+		
+	}
+	public static void main(String[] args) {
+		Test tst  = new Test();
+		//System.out.println("User Value:"+tst.x);//A blank final can also have defalt value
+		}
+
+}

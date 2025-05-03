@@ -1,0 +1,16 @@
+package NOV_12.Blank_Final_field;
+
+public class Sample {
+	final int x ;
+	{
+		x =123;
+	}
+	public Sample() {
+		//x = 234;
+	}
+	public static void main(String[] args) {
+		Sample s1 = new Sample();
+		System.out.println("X:"+s1.x);
+	}
+
+}

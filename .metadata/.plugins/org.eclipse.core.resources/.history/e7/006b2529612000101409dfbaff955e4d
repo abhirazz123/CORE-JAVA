@@ -1,6 +1,0 @@
-package OCT_29.deep_copy;
-
-public class Product {
-	private int Productid;
-
-}

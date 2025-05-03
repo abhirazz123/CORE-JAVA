@@ -1,0 +1,21 @@
+package NOV_12.Blank_Final_field;
+
+public class Alpha2 {
+	final int x;// Blank final Field 
+	public Alpha2() 
+	{
+		x = 100;
+		System.out.println("x: "+x);
+		
+	}
+	public Alpha2(int y) {
+		x = y;
+		System.out.println("y: "+y);
+	}
+	public static void main(String[] args) {
+		Alpha2 a1 = new Alpha2();
+		Alpha2 a2 = new Alpha2(200);
+		
+	}
+
+}

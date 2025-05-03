@@ -1,0 +1,8 @@
+package NOV_12.super_class_method;
+class Alpha{
+	
+}
+
+public class SuperMethodCall {
+
+}

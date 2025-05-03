@@ -3,20 +3,22 @@ package NOV_01.instance_block;
 public class Customer {
 	private double bill;
 	public Customer() {
-		bill = 100000;
+		bill = 10000;
 		System.out.println(bill);
 	}{
 		bill = 1000;
 		System.out.println(bill);
+
 	}
 	{
 		bill = 2000;
 		System.out.println(bill);
-
-	}{
+	}
+	{
 		bill = 3000;
 		System.out.println(bill);
-	}{
+	}
+	{
 		bill = 4000;
 		System.out.println(bill);
 	}

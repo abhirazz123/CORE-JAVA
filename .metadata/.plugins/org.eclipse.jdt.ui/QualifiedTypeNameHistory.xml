@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="OOPS.OCT_22.Product"/>
     <fullyQualifiedTypeName name="OOPS.parameter_Variable_OCT_22.Employee1"/>
     <fullyQualifiedTypeName name="OOPS.Default_Constructor_OCT_22.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.classfile.Superclass"/>
     <fullyQualifiedTypeName name="OOPS.parameter_Variable_OCT_22.employee"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="OCT_25.No_Argument_Constructor.Person"/>
@@ -24,4 +23,19 @@
     <fullyQualifiedTypeName name="NOV_01.constructor_overloading.Calculate"/>
     <fullyQualifiedTypeName name="NOV_01.instance_block.Student"/>
     <fullyQualifiedTypeName name="NOV_01.instance_block.Manager"/>
+    <fullyQualifiedTypeName name="NOV_12.Has_A_Relation.Engine"/>
+    <fullyQualifiedTypeName name="NOV_12.inheritance.single_level_inheritance.Father"/>
+    <fullyQualifiedTypeName name="NOV_12.inheritance.single_level_inheritance.Son"/>
+    <fullyQualifiedTypeName name="NOV_12.inheritance.single_level_inheritance.Super"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMapTable_attribute.full_frame"/>
+    <fullyQualifiedTypeName name="NOV_12.super_keyword.Father"/>
+    <fullyQualifiedTypeName name="NOV_12.super_keyword.Daughter"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_method.Alpha"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_method.Beta"/>
+    <fullyQualifiedTypeName name="java.lang.classfile.Superclass"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Alpha"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Beta"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Super"/>
+    <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Sub"/>
 </qualifiedTypeNameHistroy>

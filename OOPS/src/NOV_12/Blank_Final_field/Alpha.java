@@ -15,3 +15,4 @@ public class Alpha {
 	
 
 }
+// Output: 200

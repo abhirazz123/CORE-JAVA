@@ -1,0 +1,26 @@
+package NOV_13.super_keyword;
+class Shape{
+	protected int x;
+	public Shape(int x) {
+		this.x = x;
+		System.out.println("X ka Values is: "+this.x);
+	}
+}
+class Square extends Shape {
+
+	public Square(int side) {
+		super(side);
+	}
+	public void getAreaSquare() {
+		double area = x*x;
+		System.out.println("Area of Square is : "+area);
+	}
+}
+public class SuperDemo1 {
+	public static void main(String[] args) {
+		Square ss = new Square(5);
+		ss.getAreaSquare();
+	}
+
+
+}

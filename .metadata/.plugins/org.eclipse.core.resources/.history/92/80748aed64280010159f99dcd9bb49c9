@@ -1,0 +1,24 @@
+package NOV_13.Hierarchical_Inheritance;
+class Employee {
+	protected double salary;
+	public  Employee(double salary) {
+		this.salary = salary;
+	}
+}
+class Developer extends Employee{
+
+	public Developer(double salary) {
+		super(salary);
+	}
+
+	@Override
+	public String toString() {
+		return "Developer [salary="+salary+"]";
+	}
+	
+	
+	
+}
+public class HierarchicalDemo1 {
+
+}

@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="OCT_28.method_return_type.Product"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Employee"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Manager"/>
@@ -38,4 +37,11 @@
     <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Beta"/>
     <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Super"/>
     <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Sub"/>
+    <fullyQualifiedTypeName name="NOV_13.constructor_And_super.Gamma"/>
+    <fullyQualifiedTypeName name="NOV_13.Parameterized_Constructor_Of_Current.Derived"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Shape"/>
+    <fullyQualifiedTypeName name="NOV_13.Single_Level_Inheritance.TemporaryEmployee"/>
+    <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Employee"/>
+    <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Designer"/>
 </qualifiedTypeNameHistroy>

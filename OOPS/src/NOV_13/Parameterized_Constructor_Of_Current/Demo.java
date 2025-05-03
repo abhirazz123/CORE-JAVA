@@ -1,0 +1,22 @@
+package NOV_13.Parameterized_Constructor_Of_Current;
+class Base{
+	public Base() {
+		this(15);
+		System.out.println("No Argument Constructor of Base class");
+	}
+	public Base(int x) {
+		System.out.println("Parameterized Constructor of Base class :"+x);
+	}
+}
+class Derived extends Base{
+	public Derived() {
+		System.out.println("No Argument Constructor of Derived class");
+	}
+}
+
+public class Demo {
+	public static void main(String[] args) {
+		Derived d = new Derived();
+	}
+
+}

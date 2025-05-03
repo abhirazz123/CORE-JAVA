@@ -1,0 +1,32 @@
+package NOV_13.inheritance.single_level_inheritance;
+class Super{
+	private int x,y;
+	public void setData(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	public int getX() {
+		return x;
+		
+	}
+	public int getY() {
+		return y;
+		
+	}
+}
+class sub extends Super
+{
+	public void showData() {
+		System.out.println("x value is: "+getX());
+		System.out.println("y value is: "+getY());
+	}
+	
+}
+public class SingleLevelDemo {
+	public static void main(String[] args) {
+		sub s1 = new sub();
+		s1.setData(100, 200);
+		s1.showData();
+	}
+
+}

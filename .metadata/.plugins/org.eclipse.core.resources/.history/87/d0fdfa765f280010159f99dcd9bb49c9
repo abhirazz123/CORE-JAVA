@@ -1,0 +1,27 @@
+package NOV_13.Single_Level_Inheritance;
+class TemporaryEmployee {
+	protected int employeeId;
+	protected String employeeName;
+	protected String employeeAddress;
+	
+	public TemporaryEmployee(int employeeId, String employeeName, String employeeAddress) {
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.employeeAddress = employeeAddress;
+	}
+
+}
+class PermanentEmployee extends TemporaryEmployee{
+
+	
+	
+
+	public PermanentEmployee (int employeeId, String employeeName, String employeeAddress) {
+		super(employeeId, employeeName, employeeAddress);
+	}
+	
+}
+
+public class SingleLevelInheritanceDemo {
+
+}

@@ -1,0 +1,15 @@
+package NOV_13HWWC_INITIALIZE_THE_OBJECT_PROPERTIES;
+
+public class No4D_By_using_Constructor {
+	int x,  y;
+
+	public No4D_By_using_Constructor() {
+		System.out.println(x);//100
+		System.out.println(y); //200
+	}{
+        //Instance block
+		x = 100;
+		y = 200;
+	}
+
+}

@@ -1,0 +1,17 @@
+package NOV_21.static_block;
+class Demo{
+	final static int a;
+	static { 	//Blank static final field
+		M1();
+		a = 100;
+		System.out.println("User Value :"+a);
+	}
+	public static void M1() {
+		System.out.println("Default Value :"+a);
+	}
+}
+public class M1 {
+	public static void main(String[] args) {
+		System.out.println("a Value Is: "+Demo.a);
+	}
+}

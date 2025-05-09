@@ -1,0 +1,12 @@
+package NOV_21.static_block;
+class Foo2{
+	static int x;
+	static {
+		System.out.println("X value is:" + x);
+	}
+}
+public class StaticBlockDemo2 {
+	public static void main(String[] args) {
+		new Foo2();
+	}
+}

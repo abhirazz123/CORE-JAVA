@@ -1,0 +1,14 @@
+package NOV_21.static_block;
+class Demo3{
+	static {
+		i = 100;
+		//System.out.println(i);  //Invalid
+		  System.out.println(Demo3.i); //Valid
+
+	}
+	static int i;
+}
+
+public class illegal_forward_reference2 {
+
+}

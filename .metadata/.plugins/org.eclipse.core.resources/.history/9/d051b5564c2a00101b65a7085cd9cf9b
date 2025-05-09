@@ -1,0 +1,10 @@
+package NOV_20.method_area;
+class Foo2{
+	
+}
+public class PlatformClassLoaderDemo2 {
+	public static void main(String[] args) {
+		System.out.println("Super class of platform class loder is: ");
+		System.out.println(Foo2.class.getClassLoader());
+	}
+}

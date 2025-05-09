@@ -1,0 +1,15 @@
+package NOV_21.static_block;
+//illegal forward reference
+
+class Demo2{
+	static {
+		i = 100;
+	}
+	static int i;
+}
+public class StaticBlockDemo5 {
+	public static void main(String[] args) {
+		System.out.println("I: "+Demo2.i);
+	}
+
+}

@@ -1,0 +1,11 @@
+package NOV_21.static_block;
+class Foo2{
+	
+}
+
+public class StaticBlockDemo2 {
+	public static void main(String[] args) {
+		
+	}
+
+}

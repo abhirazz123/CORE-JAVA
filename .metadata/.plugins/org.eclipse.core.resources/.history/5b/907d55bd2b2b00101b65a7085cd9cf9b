@@ -1,0 +1,13 @@
+package NOV_21.static_block;
+
+public class StaticBlockDemo8 {
+	final static int x; // Blank Final field
+	static {
+		m1();
+		x = 15;
+	}
+	public void m1 () {
+		
+	}
+
+}

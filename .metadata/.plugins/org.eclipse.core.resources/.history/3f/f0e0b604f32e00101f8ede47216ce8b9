@@ -1,0 +1,22 @@
+package NOV_26.association;
+
+public class Student {
+    private int studentId;
+    private String studentName;
+    private int studentMarks;
+
+    public Student(int studentId, String studentName, int studentMarks) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+        this.studentMarks = studentMarks;
+    }
+    public void SetstudentId(int studentId) {
+    	this.studentId = studentId;
+    }
+    public int getstudentId() {
+		return studentId;
+    	
+    }
+    public void 
+   
+}

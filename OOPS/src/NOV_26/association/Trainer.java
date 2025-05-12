@@ -1,0 +1,18 @@
+package NOV_26.association;
+
+import java.util.Scanner;
+
+public class Trainer {
+	public static void veiwStudentProfile(Student obj) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Student ID: ");
+		int id = sc.nextInt();
+		if(id == obj.getstudentId()) {
+			System.out.println(obj);
+		}else {
+			System.err.println("Sorry! No such student with given id");
+		}
+		sc.close();
+	}
+
+}

@@ -1,0 +1,19 @@
+package NOV_21.static_block;
+class Test2{
+	private int x ;
+	public Test2(int x) {
+		this.x = x;
+		
+	}
+	public static void access() {
+		//System.out.println(x);//error
+	}
+}
+
+public class StaticDemo {
+	public static void main(String[] args) {
+		Test2 t1 = new Test2(10);
+		Test2.access();
+	}
+
+}

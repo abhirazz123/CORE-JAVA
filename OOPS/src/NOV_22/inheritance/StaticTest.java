@@ -1,0 +1,21 @@
+package NOV_22.inheritance;
+class Super{
+	protected int x = 100;
+}
+class Sub extends Super{
+	protected int x = 200;// variable Hiding
+	public static void access() {
+		Sub s1 = new Sub();
+		System.out.println(s1.x);
+		
+		Super s2 = s1; //Up casting
+		System.out.println(s2.x);
+	}
+}
+
+public class StaticTest {
+	public static void main(String[] args) {
+		Sub.access();
+	}
+
+}

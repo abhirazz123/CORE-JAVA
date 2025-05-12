@@ -1,0 +1,13 @@
+package NOV_22.class_info;
+
+public class ClassInformationDemo {
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class cls = Class.forName(args[0]);
+		
+		System.out.println("Class Name is: "+cls.getName());
+		System.out.println("Package Name is: "+cls.getPackageName());
+		
+		
+	}
+
+}

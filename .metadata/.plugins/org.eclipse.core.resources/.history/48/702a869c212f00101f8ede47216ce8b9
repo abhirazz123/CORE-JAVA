@@ -1,0 +1,13 @@
+package NOV_28.aggregation;
+
+public class ImmutableDemo2 {
+	public static void main(String[] args) {
+		String str = "india";
+		accept(str);
+		System.out.println(str);
+	}
+	public static void accept() {
+		
+	}
+
+}

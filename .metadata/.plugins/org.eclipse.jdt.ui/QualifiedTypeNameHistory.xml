@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
-    <fullyQualifiedTypeName name="OOPS.Studend1"/>
-    <fullyQualifiedTypeName name="OOPS.OCT_22.Product"/>
     <fullyQualifiedTypeName name="OOPS.parameter_Variable_OCT_22.Employee1"/>
     <fullyQualifiedTypeName name="OOPS.Default_Constructor_OCT_22.Employee"/>
     <fullyQualifiedTypeName name="OOPS.parameter_Variable_OCT_22.employee"/>
@@ -12,9 +9,6 @@
     <fullyQualifiedTypeName name="OCT_25.Parameterized_Constructor.Dog"/>
     <fullyQualifiedTypeName name="OCT_25.Setter_and_Getter.Employee1"/>
     <fullyQualifiedTypeName name="OCT_28.method_return_type.Product"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Employee"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Manager"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Student"/>
@@ -39,11 +33,31 @@
     <fullyQualifiedTypeName name="NOV_12.super_class_constructor.Sub"/>
     <fullyQualifiedTypeName name="NOV_13.constructor_And_super.Gamma"/>
     <fullyQualifiedTypeName name="NOV_13.Parameterized_Constructor_Of_Current.Derived"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Shape"/>
     <fullyQualifiedTypeName name="NOV_13.Single_Level_Inheritance.TemporaryEmployee"/>
     <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Employee"/>
     <fullyQualifiedTypeName name="NOV_13.Hierarchical_Inheritance.Designer"/>
     <fullyQualifiedTypeName name="OCT_29.pass_by_value.test2"/>
     <fullyQualifiedTypeName name="NOV_18_Access_modifiers.M2.ELC"/>
+    <fullyQualifiedTypeName name="NOV_22.Dout_class_file_by_using_new_keyword.Alpha"/>
+    <fullyQualifiedTypeName name="NOV_21.static_block.Hello"/>
+    <fullyQualifiedTypeName name="NOV_21.static_block.Test2"/>
+    <fullyQualifiedTypeName name="NOV_22.inheritance.Super"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="NOV_25.HEAP_and_STACK.Alpha"/>
+    <fullyQualifiedTypeName name="NOV_26.HAS_A_Relation.Engine"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="NOV_26.association.Student"/>
+    <fullyQualifiedTypeName name="NOV_26.association.Trainer"/>
+    <fullyQualifiedTypeName name="NOV_26.composition.Engine"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="NOV_26.composition.Car"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="NOV_26.composition.Trainer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="NOV_26.aggregation.College"/>
+    <fullyQualifiedTypeName name="NOV_26.aggregation.Student"/>
+    <fullyQualifiedTypeName name="NOV_28.overloading.Calculate"/>
+    <fullyQualifiedTypeName name="NOV_28.overloading.Test"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package NOV_26.composition;
+
+public class CompostionDemo {
+	public static void main(String[] args) {
+		Car naxon = new Car("Tata Naxon", 2025);
+		System.out.println(naxon);
+	}
+
+}

@@ -1,0 +1,13 @@
+package NOV_21.static_block;
+class Ravi1{
+	static {
+		System.out.println("Static Block Ravi Class");
+	}
+}
+
+public class ClassLoading1 {
+	public static void main(String[]args) throws ClassNotFoundException {
+		Class.forName("Ravi1");
+	}
+
+}

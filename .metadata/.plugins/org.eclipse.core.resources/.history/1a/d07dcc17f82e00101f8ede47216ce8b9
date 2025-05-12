@@ -1,0 +1,9 @@
+package NOV_26.association;
+
+public class AssociationDemo {
+	public static void main(String[] args) {
+		Student raj = new Student(1007, "Abhi", 88);
+		Trainer.veiwStudentProfile(raj);
+	}
+
+}

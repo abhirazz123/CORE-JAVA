@@ -1,0 +1,12 @@
+package NOV_28.aggregation;
+public class ImmutableDemo {
+	public static void main(String[] args) {
+		Integer i = new Integer(12);
+		accept(i);
+		System.out.println("I:"+i);
+	}
+	public static void accept(Integer y) {
+		y = 22;
+	}
+
+}

@@ -1,0 +1,19 @@
+package NOV_26.aggregation;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private College collge; // HAS-A Relation
+	
+	public Student(int studentId, String studentName, College collge) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.collge = collge;	
+	}
+	@Override
+	public String toString() {
+		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", collge=" + collge + "]";
+	}
+	
+
+}

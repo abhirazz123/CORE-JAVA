@@ -1,0 +1,15 @@
+package NOV_22.class_info;
+import java.util.Scanner;
+
+public class Test {
+	int x = 100;
+	static Scanner sc = new Scanner(System.in);
+	static int y = 200;
+	int z = 300;
+	public void input(){}
+	public  static void accept() {}
+	public void display() {}
+	public void show() {}
+	public void m1() {}
+
+}

@@ -1,0 +1,31 @@
+package NOV_26.composition;
+
+public class Car {
+	private int carkey;
+	private String CarName;
+	private int CareModel;
+	private final Engine engine; // HAS-A Relstion
+	
+	public Car(int carkey,String CarName, int CareModel) {
+		this.carkey = carkey;
+		this.CarName = CarName;
+		this.CareModel = CareModel;
+		this.engine = new Engine("Battery", 1200);//Composition
+		
+	}
+	
+	public int getCarid() {
+		return carid;
+	}
+	public void setCareid(int carid) {
+		this.carid = carid;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Car [carid=" + carid + ", CarName=" + CarName + ", CareModel=" + CareModel + ", engine=" + engine + "]";
+	}
+	
+	
+}

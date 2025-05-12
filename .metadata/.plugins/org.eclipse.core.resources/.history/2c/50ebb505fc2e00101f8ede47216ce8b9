@@ -1,0 +1,18 @@
+package NOV_26.composition;
+
+import java.util.Scanner;
+
+public class Trainer {
+	public static void veiwStudentProfile(Car obj) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the car Key: ");
+		int key = sc.nextInt();
+		if(key == obj.getCarid()) {
+			System.out.println(obj);
+		}
+		else {
+			System.out.println("Enter the Valid Key!!");
+		}
+	}
+
+}

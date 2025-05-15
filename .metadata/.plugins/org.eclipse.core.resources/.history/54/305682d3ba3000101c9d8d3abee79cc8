@@ -1,0 +1,9 @@
+package Dec_02.Overriding;
+class RBI {
+	protected String ifcCode = "RBIHYD6343";
+	
+}
+
+public class OverridingDemo4 {
+
+}

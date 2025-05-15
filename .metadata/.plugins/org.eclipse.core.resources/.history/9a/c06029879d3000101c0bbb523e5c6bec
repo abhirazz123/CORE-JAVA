@@ -1,0 +1,18 @@
+package NOV_30.Wrapper.basic;
+class Test17{	
+	public void accept(Number n){
+		System.out.println("Number");
+	}	
+	public void accept(Double d){
+		System.out.println("Double");
+	}	
+}
+public class AmbiguityIssue17 {
+
+	public static void main(String[] args) 
+	{
+		Test17 t = new Test17();
+		t.accept(12);        
+     
+    }
+}

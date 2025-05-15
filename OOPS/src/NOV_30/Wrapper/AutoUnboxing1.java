@@ -1,0 +1,9 @@
+package NOV_30.Wrapper;
+public class AutoUnboxing1 {
+	public static void main(String[] args) {
+		Integer obj = 15; // Upto 1.4
+		int x = obj.intValue();
+		System.out.println(x);
+
+	}
+}

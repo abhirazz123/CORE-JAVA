@@ -1,0 +1,17 @@
+package NOV_30.Wrapper.basic;
+
+class Test8
+{
+	public void accept(int d){
+		System.out.println("int");
+	}
+	public void accept(long s){
+		System.out.println("long");
+	}	
+}
+public class AmbiguityIssue8 {
+	public static void main(String[] args){
+		Test t = new Test();
+		t.accept(9);  
+	}
+}

@@ -1,0 +1,16 @@
+package NOV_30.Wrapper.basic;
+class test6{
+	public void accept(double ...d) {
+		System.out.println("double");
+	}
+	public void accept(long ...d) {
+		System.out.println("long");
+	}
+}
+public class AmbiguityIssue6 {
+	public static void main(String[] args) {
+		test6 t6 = new test6();
+		t6.accept(2000000000L);
+	}
+
+}

@@ -1,0 +1,8 @@
+package NOV_28.Wrapper.basic;
+
+public class Conversion {
+	public static void main(String[] args) {
+		long l = 12; //Implicit OR Widening
+	}
+
+}

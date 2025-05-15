@@ -1,0 +1,10 @@
+package Dec_02.Overriding;
+class Shape{
+	public void draw() {
+		System.out.println("Generic Draw");
+	}
+}
+
+public class OverridingDemo3 {
+
+}

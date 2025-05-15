@@ -1,0 +1,14 @@
+package NOV_28.AutoBoxing;
+
+public class AutoBoxing2 {
+	public static void main(String[] args) {
+		byte b = 12;
+		Byte b1 = Byte.valueOf(b);
+		System.out.println("Byte Object: "+b1);
+		
+		short s = 17;
+		Short s1 = Short.valueOf(s);
+		System.out.println("Short Object: "+s1);
+	}
+
+}

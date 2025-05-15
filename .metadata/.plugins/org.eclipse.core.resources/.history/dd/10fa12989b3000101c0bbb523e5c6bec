@@ -1,0 +1,21 @@
+package NOV_30.Wrapper.basic;
+class Test14
+{	
+	public void accept(Number s)
+	{
+		System.out.println("Number");
+	}	
+	public void accept(Integer i)
+	{
+		System.out.println("Integer");
+	}	
+}
+public class AmbiguityIssue14 {
+
+	public static void main(String[] args) 
+	{
+		Test t = new Test();
+		t.accept(12);        
+
+	}
+}

@@ -1,0 +1,7 @@
+package Dec_02.Method_Overriding;
+public class Super {
+	public void m1() {
+		
+	}
+
+}

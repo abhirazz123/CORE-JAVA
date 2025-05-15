@@ -1,0 +1,30 @@
+package NOV_28.AutoBoxing;
+
+public class AutoBoxing2 {
+	public static void main(String[] args) {
+		byte b = 12;
+		Byte b1 = Byte.valueOf(b);
+		System.out.println("Byte Object: "+b1);
+		
+		short s = 17;
+		Short s1 = Short.valueOf(s);
+		System.out.println("Short Object: "+s1);
+		
+		int i = 90;
+		Integer i1 = Integer.valueOf(i);
+		System.out.println("Integer Object: "+i1);
+		
+		long g = 12;
+		Long h = Long.valueOf(g);
+		System.out.println("Long Object: "+h);
+		
+		float f1 = 2.4f;
+		Float f2 = Float.valueOf(f1);
+		System.out.println("Float Object: "+f2);
+		
+		char ch = 'A';
+		Character ch1 = Character.valueOf(ch);
+		System.out.println("Character: "+ch1);
+	}
+
+}

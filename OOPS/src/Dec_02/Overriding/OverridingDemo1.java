@@ -1,0 +1,26 @@
+package Dec_02.Overriding;
+class Bird{
+	public void fly() {
+		System.out.println("Generic Bird is flying");
+	}
+}
+class Parrot extends Bird{
+	public void fly() {
+		System.out.println("Parrot Bird is flying");
+	}
+}
+class Sprrow extends Bird{
+	public void fly() {
+		System.out.println("Sparrow Bird is flying");
+	}
+}
+public class OverridingDemo1 {
+	public static void main(String[] args) {
+		Bird b1 = null;
+		
+		b1 = new Parrot();b1.fly();//Dynamic Method Dispatch
+		b1 = new Sprrow();b1.fly();//Dynamic Method Dispatch
+		
+	}
+
+}

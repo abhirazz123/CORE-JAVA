@@ -1,0 +1,19 @@
+package Dec_02.Overriding;
+class Animal{
+	public void eat() {
+		System.out.println("Generic Animal is eating");
+	}
+}
+class Dog extends Animal{
+	public void eat() {
+		System.out.println("Dog Animal is eating");
+	}
+}
+class Pappy extends Dog{
+	public void eat() {
+		System.out.println("Pappay Animal is eating");
+	}
+}
+public class OverridingDemo2 {
+
+}

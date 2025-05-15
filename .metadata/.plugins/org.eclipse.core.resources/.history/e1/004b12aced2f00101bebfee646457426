@@ -1,0 +1,20 @@
+package NOV_28.Wrapper.basic;
+class Test
+{
+	public void accept(int ...d)
+	{
+		System.out.println("int");
+	}
+	public void accept(char ...d)
+	{
+		System.out.println("char");
+	}	
+}
+public class AmbiguityIssue3 {
+
+	public static void main(String[] args) 
+	{
+		Test t = new Test();
+		t.accept();
+	}
+}

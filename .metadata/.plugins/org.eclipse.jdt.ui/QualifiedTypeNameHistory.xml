@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="NOV_01.copy_constructor.Employee"/>
-    <fullyQualifiedTypeName name="NOV_01.copy_constructor.Manager"/>
-    <fullyQualifiedTypeName name="NOV_01.copy_constructor.Student"/>
     <fullyQualifiedTypeName name="NOV_01.copy_constructor.Teacher"/>
     <fullyQualifiedTypeName name="NOV_01.constructor_overloading.Calculate"/>
     <fullyQualifiedTypeName name="NOV_01.instance_block.Student"/>
@@ -51,7 +48,6 @@
     <fullyQualifiedTypeName name="NOV_28.overloading.Test"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="NOV_28.Wrapper.basic.Test"/>
     <fullyQualifiedTypeName name="NOV_30.Wrapper.basic.test6"/>
     <fullyQualifiedTypeName name="NOV_30.Wrapper.basic.Test13"/>
@@ -59,5 +55,9 @@
     <fullyQualifiedTypeName name="Dec_02.Overriding.Shape"/>
     <fullyQualifiedTypeName name="Dec_02.Overriding.Rectangle"/>
     <fullyQualifiedTypeName name="Dec_02.Overriding.Square"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
+    <fullyQualifiedTypeName name="Dec_02.Overriding.Super5"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Dec_02.Overriding.Super6"/>
 </qualifiedTypeNameHistroy>

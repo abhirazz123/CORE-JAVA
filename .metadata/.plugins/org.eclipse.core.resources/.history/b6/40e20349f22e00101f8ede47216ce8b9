@@ -1,9 +1,0 @@
-package NOV_26.association;
-
-public class AssociationDemo {
-	public static void main(String[] args) {
-		Student raj = new Student(1007, "Razz", 88);
-		Thread.viewStudentProfile(raj);
-	}
-
-}

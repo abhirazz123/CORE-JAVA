@@ -1,9 +1,0 @@
-package NOV_26.aggregation;
-
-public class AggregationDemo {
-	public static void main(String[] args) {
-		College c1 = new College("MGR", "Chennai");
-		Student s1 = new Student(1007, "Abhi", c1);
-	}
-
-}

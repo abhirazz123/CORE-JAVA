@@ -1,5 +1,0 @@
-package NOV_21.static_block;
-public class Test2{
-	int x = 100;
-	
-}

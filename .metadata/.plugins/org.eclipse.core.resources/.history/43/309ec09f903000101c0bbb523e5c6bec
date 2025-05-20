@@ -1,8 +1,0 @@
-package NOV_28.Wrapper;
-public class AutoUnboxing2 {
-	public static void main(String[] args) {
-		Integer x = 25;
-		int y = x; //Jdk 1.5 onwards
-		System.out.println(y);
-	}
-}

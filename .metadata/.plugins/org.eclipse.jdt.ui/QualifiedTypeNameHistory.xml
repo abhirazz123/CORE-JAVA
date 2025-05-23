@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-    <fullyQualifiedTypeName name="NOV_25.HEAP_and_STACK.Alpha"/>
-    <fullyQualifiedTypeName name="NOV_26.HAS_A_Relation.Engine"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="NOV_26.association.Student"/>
-    <fullyQualifiedTypeName name="NOV_26.association.Trainer"/>
-    <fullyQualifiedTypeName name="NOV_26.composition.Engine"/>
-    <fullyQualifiedTypeName name="NOV_26.composition.Car"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="NOV_26.composition.Trainer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="NOV_26.aggregation.College"/>
-    <fullyQualifiedTypeName name="NOV_26.aggregation.Student"/>
-    <fullyQualifiedTypeName name="NOV_28.overloading.Calculate"/>
     <fullyQualifiedTypeName name="NOV_28.overloading.Test"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
@@ -50,7 +36,6 @@
     <fullyQualifiedTypeName name="Dec_05.instance_of.Sparrow"/>
     <fullyQualifiedTypeName name="Dec_05.instance_of.Bird"/>
     <fullyQualifiedTypeName name="Dec_05.instance_of.Parrot"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Dec_05.instance_of.Payment"/>
     <fullyQualifiedTypeName name="Dec_05.instance_of.UPI"/>
     <fullyQualifiedTypeName name="Dec_05.instance_of.CreditCard"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="Dec_05.Method_Hiding.Super4"/>
     <fullyQualifiedTypeName name="Dec_05.Method_Hiding.Base"/>
     <fullyQualifiedTypeName name="Dec_05.Method_Hiding.Derived"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Dec_05.limitation_of_new_keyword.Simple"/>
+    <fullyQualifiedTypeName name="Dec_05.limitation_of_new_keyword.Student"/>
+    <fullyQualifiedTypeName name="Dec_05.final_keyword.Sample"/>
+    <fullyQualifiedTypeName name="OCT_29.HEAP_and_STACK.Sample"/>
+    <fullyQualifiedTypeName name="Dec_07.FinalMethodEx.Alpha"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Dec_07.sealed_ex.Bird"/>
+    <fullyQualifiedTypeName name="Dec_07.sealed_ex.Parrot"/>
+    <fullyQualifiedTypeName name="Dec_07.sealed_ex.Sparrow"/>
+    <fullyQualifiedTypeName name="Dec_07.Abstraction.Shape"/>
+    <fullyQualifiedTypeName name="Dec_07.Abstraction.Circle"/>
+    <fullyQualifiedTypeName name="Dec_07.Abstraction.Square"/>
+    <fullyQualifiedTypeName name="Dec_09.Abstraction.Bike"/>
+    <fullyQualifiedTypeName name="Dec_09.Abstraction.KTM"/>
 </qualifiedTypeNameHistroy>

@@ -1,30 +1,58 @@
-8:42:37 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-8:42:37 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-8:42:37 Microsoft.Shutdown.TabStripModel.CloseTabs
-8:42:37 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-8:42:37 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-8:42:37 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-8:42:37 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-8:42:37 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-8:42:37 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-8:42:37 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-8:42:37 Tab45 RenderProcessGone
-8:42:37 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-8:42:37 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-8:42:37 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-8:42:37 Browser45 Close Tab45 at 0
-8:42:37 Tab45 WebContentsDestroyed
-8:42:37 Microsoft.Shutdown.OnWindowClosing
-8:42:37 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-8:42:37 Widget Closed: BrowserFrame
-8:42:37 Microsoft.Shutdown.OnWindowClosing
-8:42:37 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-8:42:37 Microsoft.Last_Browser_Removed
-8:42:37 Microsoft.Shutdown.ShutdownIfNoBrowsers
-8:42:37 Microsoft.Shutdown.SetTryingToQuit_Quitting
-8:42:37 Microsoft.Shutdown.NotifyAppTerminating
-8:42:37 Microsoft.Shutdown.OnAppExiting
-8:42:37 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura
-8:42:37 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.NotificationUIManager_StartShutdown
-8:42:37 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.CloseAllSecondaryWidgets
-8:42:37 Shutdown
+0:55:59 Tab12 PageLoad
+0:55:59 Tab12 FinishNav78
+0:55:59 Tab12 PageLoad
+0:56:00 Tab12 StartNav79 #typed
+0:56:00 Tab12 FinishNav79
+0:56:00 Tab12 PageLoad
+0:56:01 Tab12 StartNav80 #typed
+0:56:01 Tab12 FinishNav80
+0:56:01 Tab12 PageLoad
+0:56:03 Tab12 StartNav81 #typed
+0:56:03 Tab12 FinishNav81
+0:56:03 Tab12 PageLoad
+0:56:13 Tab12 StartNav82 #typed
+0:56:13 Tab12 FinishNav82
+0:56:13 Tab12 PageLoad
+0:56:20 Tab12 StartNav83 #typed
+0:56:21 Tab12 FinishNav83
+0:56:21 Tab12 PageLoad
+0:56:25 Tab12 StartNav84 #typed
+0:56:25 Tab12 FinishNav84
+0:56:25 Tab12 PageLoad
+0:56:28 Tab12 StartNav85 #typed
+0:56:28 Tab12 FinishNav85
+0:56:28 Tab12 PageLoad
+0:56:29 Tab12 StartNav86 #typed
+0:56:29 Tab12 FinishNav86
+0:56:29 Tab12 PageLoad
+0:56:30 Tab12 StartNav87 #typed
+0:56:30 Tab12 FinishNav87
+0:56:30 Tab12 PageLoad
+0:56:38 Tab12 StartNav88 #typed
+0:56:38 Tab12 FinishNav88
+0:56:38 Tab12 PageLoad
+0:56:43 Tab12 StartNav89 #typed
+0:56:43 Tab12 FinishNav89
+0:56:43 Tab12 PageLoad
+0:56:51 Tab12 StartNav90 #typed
+0:56:51 Tab12 FinishNav90
+0:56:51 Tab12 PageLoad
+0:56:54 Tab12 StartNav91 #typed
+0:56:54 Tab12 FinishNav91
+0:56:54 Tab12 PageLoad
+0:56:56 Tab12 StartNav92 #typed
+0:56:56 Tab12 FinishNav92
+0:56:56 Tab12 PageLoad
+0:57:08 Tab12 StartNav93 #typed
+0:57:08 Tab12 FinishNav93
+0:57:08 Tab12 PageLoad
+0:58:44 Tab12 StartNav94 #typed
+0:58:44 Tab12 FinishNav94
+0:58:44 Tab12 PageLoad
+0:58:49 Tab12 StartNav95 #typed
+0:58:49 Tab12 FinishNav95
+0:58:49 Tab12 PageLoad
+0:58:51 Tab12 StartNav96 #typed
+0:58:51 Tab12 FinishNav96
+0:58:51 Tab12 PageLoad
+0:59:01 Microsoft.Shutdown.OnWindowClosing

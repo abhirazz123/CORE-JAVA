@@ -1,0 +1,78 @@
+## Implementing a Hierarchical Model of Animals Using Multilevel Inheritance
+
+**Scenario:**
+
+In a virtual zoo management system, you are required to organize and categorize various types of animals to effectively manage their characteristics and behaviors. To achieve this, implement a class hierarchy using multilevel inheritance in Java.
+
+**Class Requirements:**
+
+1.  **Animal Class (Base Class)**
+
+    *   Define a private attribute `name` of type `String`.
+    *   Create a parameterized constructor to initialize the `name`.
+    *   Provide getter and setter methods for the `name`.
+    *   Implement a method `displayDetails()` to print the animal's name.
+
+2.  **Mammal Class (Derived from Animal)**
+
+    *   Inherit from the `Animal` class.
+    *   Add a private attribute `hasFur` of type `boolean`.
+    *   Create a parameterized constructor to initialize `name` (via `super`) and `hasFur`.
+    *   Provide getter and setter methods for `hasFur`.
+    *   Override the `displayDetails()` method to include information about fur.
+
+3.  **Dog Class (Derived from Mammal)**
+
+    *   Inherit from the `Mammal` class.
+    *   Add a private attribute `breed` of type `String`.
+    *   Create a parameterized constructor to initialize `name`, `hasFur`, and `breed`.
+    *   Provide getter and setter methods for `breed`.
+    *   Override the `displayDetails()` method to include the dog's breed in the output.
+
+4.  **Main Class**
+
+    *   In the `main` method, create an instance of the `Dog` class.
+    *   Call the `displayDetails()` method to demonstrate the full inheritance chain.
+
+**Input Validation Condition:**
+
+*   If any numeric input (if added later, such as age or weight) is less than or equal to zero, print:
+
+    `Error Invalid Input`
+
+    **Note:** This condition is reserved for numeric attributes. The current version of the model does not involve numeric fields.
+
+**Test Cases**
+
+*   ✅ **Test Case 1: Invalid Input**
+
+    **Sample Input:**
+
+    ```java
+    // Assuming a numeric field like age is later added and given as 0 or negative
+    Dog myDog = new Dog("Buddy", true, "Golden Retriever", -1);
+    ```
+
+    **Sample Output:**
+
+    ```
+    Error Invalid Input
+    ```
+
+*   ✅ **Test Case 2: Valid Input**
+
+    **Sample Input:**
+
+    ```java
+    Dog myDog = new Dog("Buddy", true, "Golden Retriever");
+    myDog.displayDetails();
+    ```
+
+    **Sample Output:**
+
+    ```
+    Dog Details:
+    Animal Name: Buddy
+    Has Fur: Yes
+    Breed: Golden Retriever
+    ```

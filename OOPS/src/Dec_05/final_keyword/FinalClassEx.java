@@ -6,12 +6,13 @@ final class A{
 		System.out.println(x);
 	}
 }
-class B extends A{
+//class B extends A{ERROR
+class B {
 	
 }
 public class FinalClassEx {
 	public static void main(String[] args) {
 		B b1 = new B();
-		b1.setData();
+		//b1.setData();
 	}
 }

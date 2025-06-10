@@ -1,58 +1,36 @@
-0:55:59 Tab12 PageLoad
-0:55:59 Tab12 FinishNav78
-0:55:59 Tab12 PageLoad
-0:56:00 Tab12 StartNav79 #typed
-0:56:00 Tab12 FinishNav79
-0:56:00 Tab12 PageLoad
-0:56:01 Tab12 StartNav80 #typed
-0:56:01 Tab12 FinishNav80
-0:56:01 Tab12 PageLoad
-0:56:03 Tab12 StartNav81 #typed
-0:56:03 Tab12 FinishNav81
-0:56:03 Tab12 PageLoad
-0:56:13 Tab12 StartNav82 #typed
-0:56:13 Tab12 FinishNav82
-0:56:13 Tab12 PageLoad
-0:56:20 Tab12 StartNav83 #typed
-0:56:21 Tab12 FinishNav83
-0:56:21 Tab12 PageLoad
-0:56:25 Tab12 StartNav84 #typed
-0:56:25 Tab12 FinishNav84
-0:56:25 Tab12 PageLoad
-0:56:28 Tab12 StartNav85 #typed
-0:56:28 Tab12 FinishNav85
-0:56:28 Tab12 PageLoad
-0:56:29 Tab12 StartNav86 #typed
-0:56:29 Tab12 FinishNav86
-0:56:29 Tab12 PageLoad
-0:56:30 Tab12 StartNav87 #typed
-0:56:30 Tab12 FinishNav87
-0:56:30 Tab12 PageLoad
-0:56:38 Tab12 StartNav88 #typed
-0:56:38 Tab12 FinishNav88
-0:56:38 Tab12 PageLoad
-0:56:43 Tab12 StartNav89 #typed
-0:56:43 Tab12 FinishNav89
-0:56:43 Tab12 PageLoad
-0:56:51 Tab12 StartNav90 #typed
-0:56:51 Tab12 FinishNav90
-0:56:51 Tab12 PageLoad
-0:56:54 Tab12 StartNav91 #typed
-0:56:54 Tab12 FinishNav91
-0:56:54 Tab12 PageLoad
-0:56:56 Tab12 StartNav92 #typed
-0:56:56 Tab12 FinishNav92
-0:56:56 Tab12 PageLoad
-0:57:08 Tab12 StartNav93 #typed
-0:57:08 Tab12 FinishNav93
-0:57:08 Tab12 PageLoad
-0:58:44 Tab12 StartNav94 #typed
-0:58:44 Tab12 FinishNav94
-0:58:44 Tab12 PageLoad
-0:58:49 Tab12 StartNav95 #typed
-0:58:49 Tab12 FinishNav95
-0:58:49 Tab12 PageLoad
-0:58:51 Tab12 StartNav96 #typed
-0:58:51 Tab12 FinishNav96
-0:58:51 Tab12 PageLoad
-0:59:01 Microsoft.Shutdown.OnWindowClosing
+0:40:03 Tab16 FinishNav146
+0:40:03 Tab16 PageLoad
+0:40:05 Tab16 StartNav147 #typed
+0:40:05 Tab16 FinishNav147
+0:40:05 Tab16 PageLoad
+0:40:06 Tab16 StartNav148 #typed
+0:40:07 Tab16 FinishNav148
+0:40:07 Tab16 PageLoad
+0:40:10 Tab16 StartNav149 #typed
+0:40:10 Tab16 FinishNav149
+0:40:10 Tab16 PageLoad
+0:40:14 Tab16 StartNav150 #typed
+0:40:14 Tab16 FinishNav150
+0:40:14 Tab16 PageLoad
+0:40:18 Tab16 StartNav151 #typed
+0:40:18 Tab16 FinishNav151
+0:40:18 Tab16 PageLoad
+0:40:21 Tab16 StartNav152 #typed
+0:40:21 Tab16 FinishNav152
+0:40:21 Tab16 PageLoad
+0:40:22 Tab16 StartNav153 #typed
+0:40:22 Tab16 FinishNav153
+0:40:22 Tab16 PageLoad
+0:40:41 Tab16 StartNav154 #typed
+0:40:41 Tab16 FinishNav154
+0:40:41 Tab16 PageLoad
+0:40:41 Tab16 StartNav155 #typed
+0:40:41 Tab16 FinishNav155
+0:40:41 Tab16 PageLoad
+0:41:10 Tab16 StartNav156 #typed
+0:41:10 Tab16 FinishNav156
+0:41:10 Tab16 PageLoad
+0:42:58 Tab16 StartNav157 #typed
+0:42:59 Tab16 FinishNav157
+0:42:59 Tab16 PageLoad
+0:47:24 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

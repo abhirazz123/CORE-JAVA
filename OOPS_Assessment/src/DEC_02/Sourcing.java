@@ -12,6 +12,7 @@ public class Sourcing extends Employee{
 		this.enrollmentReached = enrollmentReached;
 		this.perkPerEnrollment = perkPerEnrollment;
 	}
+	@Override
 	public double calculateGrossSalary() {
 		return basicSalary + HRAPer + DAPer + ((enrollmentReached / enrollmentTarget) * 100 * perkPerEnrollment);
 

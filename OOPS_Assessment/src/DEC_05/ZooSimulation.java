@@ -1,13 +1,13 @@
 package DEC_05;
 class Animal {
 	private String species ;
-	
+
 	public Animal(String species) {
 		this.species = species;
 	}
 	public String getSpecies() {
 		return species;
-		
+
 	}
 	public void makeSound() {
 		System.out.println("generic animal sound.");
@@ -19,7 +19,7 @@ class Animal {
 	public Animal reproduce() {
 		 System.out.println("Generic reproduction method for all animals.");
 		return new Animal("Unknown") ;
-		
+
 	}
 
 }
@@ -27,9 +27,10 @@ class Mammal extends Animal{
 	boolean 	hasFur ;
 	public Mammal(String species, boolean hasFur) {
 		super(species);
-		
+
 		this.hasFur = hasFur;
 	}
+	@Override
 	public void	makeSound() {
 		System.out.println("mammal-specific sound.");
 	}
@@ -37,10 +38,11 @@ class Mammal extends Animal{
 	public String toString() {
 		return "Mammal [hasFur=" + hasFur + "]";
 	}
+	@Override
 	public Mammal reproduce() {
 		 System.out.println("Mammals give birth to live young.");
 		 return new Mammal(getSpecies(), hasFur);
-		
+
 	}
 	public void nurseYoung() {
 		System.out.println("Mammals nurse their young.");
@@ -53,6 +55,7 @@ class Bird  extends Animal{
 		super(species);
 		this.canFly = canFly;
 	}
+	@Override
 	public void	makeSound() {
 		System.out.println("bird-specific sound");
 	}
@@ -60,9 +63,10 @@ class Bird  extends Animal{
 	public String toString() {
 		return "Bird [canFly=" + canFly + "]";
 	}
+	@Override
 	public Bird reproduce() {
 		return new Bird(getSpecies(), canFly);
-		
+
 	}
 	public void buildNest() {
 		System.out.println("Birds build nests for their eggs.");

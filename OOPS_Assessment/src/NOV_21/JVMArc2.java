@@ -5,6 +5,6 @@ public class JVMArc2 {
 		System.out.println(JVMArc.class.getClassLoader());
 		System.out.println(JVMArc.class.getClassLoader().getParent());
 		System.out.println(JVMArc.class.getClassLoader().getParent().getParent());
-		
+
 	}
 }

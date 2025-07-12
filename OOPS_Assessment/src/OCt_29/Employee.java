@@ -3,7 +3,7 @@ package OCt_29;
 public class Employee {
 	String Name;
 	int age;
-	String department; 
+	String department;
 	double salary ;
 	String 	performance ;
 
@@ -16,7 +16,9 @@ public class Employee {
 	}
 	public double updateSalary () {
 		if(performance!=null) {
-			if(performance.equalsIgnoreCase("GOOD"));
+			if(performance.equalsIgnoreCase("GOOD")) {
+				;
+			}
 			salary += 10000;
 		}else if(performance.equalsIgnoreCase("Average")) {
 			salary += 5000;
@@ -36,10 +38,10 @@ public class Employee {
 		Employee emp = new Employee("Abhishek", 20, "Sales", 50000, "Good");
 		emp.updateSalary();
 		emp.printDetails();
-		
+
 		Employee emp2 = new Employee("Gangadhar", 25, "HR", 47000, "good");
         emp2.updateSalary();
         emp2.printDetails();
-		
+
 	}
 }

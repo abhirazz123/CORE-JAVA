@@ -2,7 +2,7 @@ package NOV_27;
 class Driver{
 		private String name;
 		private int age;
-		
+
 		public Driver(String name, int age) {
 			if(age>0) {
 				this.name = name;
@@ -45,7 +45,7 @@ class Car{
 		private String model;
 		private int year;
 		private Driver driver;
-		
+
 		public Car(String brand, String model, int year, Driver driver) {
 	        if (year <= 0) {
 	            System.out.println("Error Invalid Input");
@@ -62,8 +62,8 @@ class Car{
 			this.brand = other.brand;
 			this.model = other.model;
 			this.year = other.year;
-			this.driver = new Driver(other.driver); 
-			
+			this.driver = new Driver(other.driver);
+
 		}
 		public String getBrand() {
 			return brand;
@@ -112,7 +112,7 @@ class Car{
 	        System.out.println("Driver Age: " + driver.getAge());
 	        System.out.println();
 	    }
-		
+
 }
 public class Main {
 	public static void main(String[] args) {

@@ -1,13 +1,13 @@
 package NOV_18;
-public class Test4 
+public class Test4
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		int original1 = 1;
 		int original2 = 2;
 		swap(original1, original2);
-		System.out.println(original1);   
-		System.out.println(original2);   
+		System.out.println(original1);
+		System.out.println(original2);
 
 	}
 
@@ -15,6 +15,6 @@ public class Test4
 		int temp = a;
 		a = b;
 		b = temp;
-		
+
 	}
 }

@@ -4,7 +4,7 @@ public class Address {
 	private String	cityName ;
 	private String districtName ;
 	private String	stateName ;
-	
+
 	public Address(String cityName, String districtName, String stateName) {
 		this.cityName = cityName;
 		this.districtName =  districtName ;
@@ -15,6 +15,6 @@ public class Address {
 	public String toString() {
 		return "Address [cityName=" + cityName + ", districtName=" + districtName + ", stateName=" + stateName + "]";
 	}
-	
+
 
 }

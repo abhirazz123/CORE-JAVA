@@ -3,7 +3,7 @@ package DEC_10;
 public class Test extends Car {
     public Test(String brand, String model, int mileage, int topSpeed, int yearOfManufacturing) {
 		super(brand, model, mileage, topSpeed, yearOfManufacturing);
-		
+
 	}
 
 	@Override

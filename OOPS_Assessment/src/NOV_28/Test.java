@@ -24,7 +24,7 @@ public class Test {
 		System.out.println(new Demo().x + new Demo().y); // 20 +21 = 41
 		Demo demo = new Demo(20,45);
 		System.out.print(" " + demo.x + " " + demo.y + " " + (new Demo().x - demo.y)); // -90+21= -69
-		//						21, 90, 
+		//						21, 90,
 	}
 
 }

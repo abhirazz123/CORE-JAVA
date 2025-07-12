@@ -29,18 +29,19 @@ class SavingsAccount extends Account{
 	public SavingsAccount(String accountNumber, double balance, double interestRate) {
 		super(accountNumber, balance);
 		this.interestRate = interestRate;
-		
-	
+
+
 	}
+	@Override
 	public SavingsAccount generateStatement() {
 		 System.out.println("Savings Account Statement:");
 	        System.out.println("Account Number: " + accountNumber);
 	        System.out.println("Balance: Rs. " + balance);
 	        System.out.println("Interest Rate: " + interestRate + "%");
 	        return this;
-		
+
 	}
-	
+
 }
 class CheckingAccount  extends Account{
 	double overdraftLimit ;
@@ -48,13 +49,14 @@ class CheckingAccount  extends Account{
 		super(accountNumber, balance);
 		this.overdraftLimit = overdraftLimit;
 	}
+@Override
 public CheckingAccount generateStatement() {
 	 System.out.println("Savings Account Statement:");
      System.out.println("Account Number: " + accountNumber);
      System.out.println("Balance: Rs. " + balance);
      System.out.println("overdraft Limit: " + overdraftLimit);
      return this;
-	
+
 }
 }
 public class BankManagementSystem {

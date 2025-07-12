@@ -19,7 +19,7 @@ private boolean hasFur;
 	public Mammal(String Name, boolean hasFur) {
 		super(Name);
 		this.hasFur = hasFur;
-		
+
 	}
 	public boolean isHasFur() {
 		return hasFur;
@@ -34,12 +34,12 @@ private boolean hasFur;
 	}
 }
 class Dog extends Mammal{
-	private String breed; 
+	private String breed;
 	public Dog(String Name, boolean hasFur, String breed) {
 		super(Name, hasFur);
 	this.breed = breed;
 	}
-	
+
 	public String getBreed() {
 		return breed;
 	}
@@ -59,7 +59,7 @@ public class Main {
 	public static void main(String[] args) {
 		 Dog myDog = new Dog("Buddy", true, "Golden Retriever");
 	        myDog.displayDetails();
-		
+
 	}
 
 }

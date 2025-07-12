@@ -4,7 +4,7 @@ class NIT9{
 	String language;
 	String faculty;
 	String student;
-	
+
 	public NIT9(String faculty, String language, String student) {
 		this.faculty = faculty;
 		this.language = language;
@@ -15,10 +15,10 @@ class NIT9{
 	}
 }
 public class OopsTest9 {
-	
+
 	public static void main(String[] args) {
 		NIT9 nit = new NIT9("java", "Naresh", "IT");
-		nit.get(); 
+		nit.get();
 	}
 
 }

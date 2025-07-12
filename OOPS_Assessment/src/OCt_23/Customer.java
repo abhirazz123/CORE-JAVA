@@ -8,7 +8,7 @@ public class Customer {
     private int customerAccountNumber;
     private int currentBalance;
 
-   
+
     public void setDetails(String bankName, String bankCustomerName, String bankAddress, String bankIFSCCode, int customerAccountNumber, int currentBalance) {
         this.bankName = bankName;
         this.bankCustomerName = bankCustomerName;

@@ -37,7 +37,7 @@ class SceinceStudent extends Student{
 			 this.chemistryMarks = chemistryMarks;
 			 this.mathMarks = mathMarks;
 		}
-		
+
 	}
 	@Override
 	public void displayDetails() {
@@ -48,17 +48,17 @@ class SceinceStudent extends Student{
 		System.out.println("Math Marks: "+mathMarks);
 		 System.out.println("Percentage: " + calculatePercentage() + "%");
 	}
-	@Override 
+	@Override
 	public double calculatePercentage() {
 		return (physicsMarks+chemistryMarks+mathMarks)/3.0;
-		
+
 	}
 }
 class ArtsStudent extends Student{
 	private int historyMarks;
 	private int geographyMarks;
 	private int englishMarks;
-	
+
 	public ArtsStudent(String name, int rollNumber, int historyMarks, int geographyMarks, int englishMarks) {
 		super(name, rollNumber);
 		if(historyMarks<0 && geographyMarks<0 & englishMarks<0) {
@@ -68,15 +68,15 @@ class ArtsStudent extends Student{
 			this.geographyMarks = geographyMarks;
 			this.englishMarks = englishMarks;
 		}
-		
-		
+
+
 	}
-	
+
 	@Override
 	public double calculatePercentage() {
-		
+
 		return (historyMarks+ geographyMarks+englishMarks)/3.0;
-		
+
 	}
 	@Override
 	public void displayDetails() {
@@ -86,7 +86,7 @@ class ArtsStudent extends Student{
 		System.out.println("Geography Marks: "+ geographyMarks);
 		System.out.println("English Marks: "+ englishMarks);
 		 System.out.println("Percentage: " + calculatePercentage() + "%");
-		
+
 	}
-	
+
 }

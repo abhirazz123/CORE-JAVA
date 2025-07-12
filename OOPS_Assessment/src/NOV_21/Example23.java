@@ -14,8 +14,8 @@ public class Example23 {
 
 	static int m1() {
 		Example23.x = 50;
-		return m2();		
-	} 
+		return m2();
+	}
 
 	static int m2() {
 		System.out.println(Example23.x);

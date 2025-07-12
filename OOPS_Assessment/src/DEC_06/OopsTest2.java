@@ -1,13 +1,13 @@
 package DEC_06;
 
-class NIT2{	
+class NIT2{
 	int name;
-	NIT2(int name){	
+	NIT2(int name){
 		this.name = name;
 	}
 }
 public class OopsTest2{
-	public static void main(String[] args) {	
+	public static void main(String[] args) {
 		NIT2 f1 = new NIT2(10);
 		NIT2 f2 = new NIT2(10);
 		NIT2 f3 = f2;

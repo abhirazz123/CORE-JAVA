@@ -5,7 +5,7 @@ class NIT6
 	String object;
 	public NIT6(String name) {
 		this.object=name;
-		NIT6.this.a+=1;
+		NIT6.a+=1;
 	}
 	static int get_counter ()
 	{

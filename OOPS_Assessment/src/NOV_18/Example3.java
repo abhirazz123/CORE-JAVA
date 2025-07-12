@@ -4,6 +4,7 @@ public class Example3 {
 	int eid;
 	String ename;
 	String company;
+	@Override
 	public String toString(){
 		return
 				"eid:"+eid+"\n"+"ename:"+ename+"\n"+"company:"+company+"\n";

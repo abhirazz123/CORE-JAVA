@@ -11,7 +11,7 @@ abstract class Student{
 	public Student(String studentName, String studentClass) {
 		this.studentName = studentName;
 		this.studentClass =  studentClass;
-		this.totalNoOfStudents ++;
+		Student.totalNoOfStudents ++;
 	}
 
 	public abstract int getPercentage() ;
@@ -53,10 +53,10 @@ class HistoryStudent extends Student{
 
 	@Override
 	public int getPercentage() {
-		
+
 		return (historyMarks+ civicsMarks)/2;
 	}
-	
+
 }
 public class StudentTester {
 	public static void main(String[] args) {

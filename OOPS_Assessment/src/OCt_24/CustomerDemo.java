@@ -4,11 +4,11 @@ import java.util.Scanner;
 import OCt_23.Customer;
 public class CustomerDemo {
     public static void main(String[] args) {
-     
+
     	Customer bank = new Customer();
         Scanner scanner = new Scanner(System.in);
 
-      
+
         System.out.println("Enter Bank Name:");
         String bankName = scanner.nextLine();
 
@@ -27,10 +27,10 @@ public class CustomerDemo {
         System.out.println("Enter Current Balance:");
         int currentBalance = scanner.nextInt();
 
-     
+
         bank.setDetails(bankName, bankCustomerName, bankAddress, bankIFSCCode, customerAccountNumber, currentBalance);
 
- 
+
         boolean exit = false;
         while (!exit) {
             System.out.println("\nChoose an operation:");

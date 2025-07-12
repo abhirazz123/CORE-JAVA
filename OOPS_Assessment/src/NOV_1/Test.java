@@ -7,6 +7,6 @@ public class Test{
 	}
 	public static void m1(Customer c) {
 		c.setId(5);
-		System.out.println(c.getId());	
+		System.out.println(c.getId());
 	}
 }

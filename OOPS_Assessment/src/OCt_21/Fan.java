@@ -3,7 +3,7 @@ public class Fan {
 	String name ;
 	String coil;
 	int wings;
-	
+
 	public Fan(String name, String coil, int wings) {
 		this.name = name;
 		this.coil = coil;
@@ -14,9 +14,9 @@ public class Fan {
 	}
 	public void switchOff () {
 		System.out.println(name + "fan is now OFF.");
-		
+
 	}
-	
+
 	public void getFanDetails() {
 		  System.out.println("Fan [Name: " + name + ", Coil: " + coil + ", Wings: " + wings + "]");
 	}
@@ -25,7 +25,7 @@ public class Fan {
 		F.switchOff();
 		F.switchOn();
 		F.getFanDetails();
-		
+
 	}
 
 }

@@ -7,6 +7,7 @@ class A {
 }
 class B extends A{
 	int i = 12;
+	@Override
 	public void printValue() {
 		System.out.println("Value-B");
 	}

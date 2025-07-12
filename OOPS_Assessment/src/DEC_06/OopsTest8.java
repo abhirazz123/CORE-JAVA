@@ -34,7 +34,7 @@ public class OopsTest8 {
         NITIII nit3 = new NITIII("JAVA", "NareshIT");
         System.out.println(nit3.name + " " + nit3.programmingLanguage);
 
-        NITIV nit4 = new NITIV("Naidu", "Narayana"); 
+        NITIV nit4 = new NITIV("Naidu", "Narayana");
         System.out.println(nit4.name + " " + nit4.faculty);
     }
 }

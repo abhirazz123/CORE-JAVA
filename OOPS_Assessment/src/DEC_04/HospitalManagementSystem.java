@@ -20,6 +20,7 @@ class Doctor extends HospitalStaff{
 		super(name, age, role);
 		this.specialization =specialization;
 	}
+	@Override
 	public void work() {
 		 System.out.println(role + " " + name + " with specialization in " + specialization + " is treating patients.");
 	}
@@ -30,6 +31,7 @@ class Nurse extends HospitalStaff{
 		super(name, age, role);
 		this.yearsOfExperience =yearsOfExperience;
 	}
+	@Override
 	public void work() {
 		 System.out.println(role + " " + name + " with " + yearsOfExperience + " years of experience is taking care of patients.");
 	}

@@ -5,7 +5,7 @@ public class Customer {
 	private String CustomerName;
 	private String CustomerAddress;
 	private Order order;
-	
+
 	public  Customer(int CustomerId, String CustomerName, String CustomerAddress, Order order) {
 		this.CustomerId = CustomerId;
 		this.CustomerName = CustomerName ;

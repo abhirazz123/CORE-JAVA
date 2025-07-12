@@ -6,7 +6,7 @@ public class StudentDemo {
 		sci.displayDetails();
 		sci.calculatePercentage();
 		System.out.println();
-		
+
 		ArtsStudent arts = new  ArtsStudent("Abhishek", 102, 75, 80, 80);
 		arts.displayDetails();
 		sci.calculatePercentage();

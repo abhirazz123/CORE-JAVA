@@ -7,7 +7,7 @@ class a{
 		this();
 		System.out.println(i);
 	}
-	
+
 }
 class b extends a{
 	public b() {
@@ -16,7 +16,7 @@ class b extends a{
 	public b(int i) {
 		this();
 		System.out.println(i+3);
-		
+
 	}
 }
 

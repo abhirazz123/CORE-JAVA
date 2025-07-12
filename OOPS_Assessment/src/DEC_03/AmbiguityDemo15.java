@@ -1,13 +1,13 @@
 package DEC_03;
 
-class Test15{		    
+class Test15{
 	public void accept(String x){
 		System.out.println("String");
-	}	
-	
+	}
+
 	public void accept(Object y){
 		System.out.println("Object");
-	}	
+	}
 }
 public class AmbiguityDemo15{
 	public static void main(String[] args) {

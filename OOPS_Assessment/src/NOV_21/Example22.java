@@ -10,5 +10,5 @@ public class Example22 {
 	static int m1() {
 		Example22.x = Example22.x+100;
 		return Example22.x;
-	} 
+	}
 }

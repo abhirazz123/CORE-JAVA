@@ -5,7 +5,7 @@ public class Dog {
 	String name;
 	double height;
 	int age;
-	
+
 	public Dog(String name, double height, int age) {
 		this.name = name;
 		this.height = height;

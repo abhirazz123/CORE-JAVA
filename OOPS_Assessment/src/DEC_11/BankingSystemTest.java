@@ -30,11 +30,12 @@ class SBI implements Bank{
 	}
 	@Override
 	public double checkBalance() {
-		return accountBalance;	
+		return accountBalance;
 	}
 }
 class HDFC implements Bank{
 	private double accountBalance;
+	@Override
 	public void deposit(double amount) {
 		if(amount>=0) {
 			accountBalance += amount;
@@ -57,12 +58,13 @@ class HDFC implements Bank{
 	}
 	@Override
 	public double checkBalance() {
-		return accountBalance;	
+		return accountBalance;
 	}
 }
 
 class ICICI implements Bank{
 	private double accountBalance;
+	@Override
 	public void deposit(double amount) {
 		if(amount>=0) {
 			accountBalance += amount;
@@ -85,7 +87,7 @@ class ICICI implements Bank{
 	}
 	@Override
 	public double checkBalance() {
-		return accountBalance;	
+		return accountBalance;
 	}
 }
 class Customer {

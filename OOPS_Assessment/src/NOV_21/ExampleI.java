@@ -10,6 +10,6 @@ public class ExampleI {
 		a = a;
 
 		System.out.println(a);
-		System.out.println(ExampleI.a); 
+		System.out.println(ExampleI.a);
 	}
 }

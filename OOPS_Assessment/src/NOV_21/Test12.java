@@ -1,7 +1,7 @@
 package NOV_21;
 
 public class Test12 {
-	static {	
+	static {
 		System.out.println("Test12 : SB1 called");
 		m1();
 	}

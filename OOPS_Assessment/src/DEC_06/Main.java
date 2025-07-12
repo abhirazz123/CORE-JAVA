@@ -7,6 +7,7 @@ class Parent{
 	}
 }
 class Chald extends Parent{
+	@Override
 	float display() {
 		float d = a/2;
 		return d;

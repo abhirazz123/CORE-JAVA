@@ -1,14 +1,14 @@
 package DEC_03;
 class Test2
-{	
-	    
+{
+
 	public void accept(byte ...s){
 		System.out.println("byte :");
-	}	
-	
+	}
+
 	public void accept(short ...s){
 		System.out.println("short :");
-	}	
+	}
 }
 public class AmbiguityDemo2
 {

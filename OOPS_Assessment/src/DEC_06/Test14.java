@@ -6,12 +6,14 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
+	@Override
 	public void printSound() {
 		System.out.print("car ");
 	}
 }
 
 class Bike extends Vehicle {
+	@Override
 	public void printSound() {
 		System.out.print("bike");
 	}
@@ -24,5 +26,5 @@ public class Test14 {
 
 		v.printSound();
 		c.printSound();
-	}   
+	}
 }

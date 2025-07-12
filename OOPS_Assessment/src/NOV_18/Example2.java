@@ -10,7 +10,7 @@ public class Example2 {
 		Example2 e2=new Example2();
 		System.out.println(e1.a+". .."+e1.b);
 		System.out.println(e2.a+". .."+e2.b);
-		
+
 		e1.a=50;
 		e2.b=60;
 		System.out.println(e2.a+". .."+e2.b);

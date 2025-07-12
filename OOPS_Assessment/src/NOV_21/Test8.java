@@ -7,6 +7,6 @@ public class Test8 {
 
 	public static void main(String[] args) {
 		Test8 t8 = new Test8();
-		t8.m1();
+		Test8.m1();
 	}
 }

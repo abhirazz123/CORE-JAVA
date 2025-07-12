@@ -35,7 +35,7 @@ public class Batter {
 			System.out.println("Batting: "+ batting);
 			System.out.println("Batting Avg: "+ batting_avg);
 		}
-			
+
 	}
 	public static void main(String[] args) {
 		Batter b = new Batter();

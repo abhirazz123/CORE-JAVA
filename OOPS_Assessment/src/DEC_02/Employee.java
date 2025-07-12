@@ -6,7 +6,7 @@ public class Employee {
 	double basicSalary;
 	double HRAPer;
 	double DAPer;
-	
+
 	public Employee(int id,String name, double basicSalary, double HRAPer, double DAPer) {
 		if(basicSalary<0 && HRAPer<0 && DAPer<0) {
 			 System.out.println("Error: Salary components must be non-negative.");
@@ -19,7 +19,7 @@ public class Employee {
 	}
 	public double calculateGrossSalary() {
 		return basicSalary+ HRAPer+ DAPer;
-		
+
 	}
 
 }

@@ -2,7 +2,7 @@ package NOV_21;
 
 public class Example20 {
 	static int a;
-	
+
 	public static void main(String[] args) {
 		System.out.println(Example20.a);
 		Example20.a = Example20.initialize();

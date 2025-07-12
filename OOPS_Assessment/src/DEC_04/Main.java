@@ -6,17 +6,20 @@ class Payment{
 	}
 }
 class CreditCardPayment extends Payment  {
+	@Override
 	public void processPayment() {
 		System.out.println("Processing credit card payment");
 	}
-	
+
 }
 class PayPalPayment extends Payment{
+	@Override
 	public void	processPayment() {
 		System.out.println("Processing PayPal payment");
 	}
 }
 class BankTransferPayment extends Payment {
+	@Override
 	public void processPayment() {
 		System.out.println("Processing bank transfer payment");
 	}
@@ -34,9 +37,9 @@ public class Main {
         Payment p2 = new CreditCardPayment();
         Payment p3 = new PayPalPayment();
         Payment p4 = new BankTransferPayment();
-        
+
         PaymentProcessor.processMultiplePayments(p1,p2,p3,p4);
-        
+
 	}
 
 }

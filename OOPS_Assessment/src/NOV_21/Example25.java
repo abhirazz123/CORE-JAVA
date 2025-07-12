@@ -9,6 +9,6 @@ public class Example25 {
 		a = a;
 
 		System.out.println(a);
-		System.out.println(Example25.a); 
+		System.out.println(Example25.a);
 	}
 }

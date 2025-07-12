@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 interface Employee{
 		public double calculateSalary() ;
-			
+
 		public void generatePayroll() ;
-			
+
 }
 class FullTimeEmployee implements Employee{
-	
+
 		private int employeeId;
 		private String employeeName;
 		private double monthlySalary;
@@ -39,27 +39,27 @@ class FullTimeEmployee implements Employee{
 		System.out.println("Employee Name : "+ employeeName);
 		System.out.println("Monthly Salary : "+ monthlySalary);
 		System.out.println("Benefits : "+ benefits);
-		
+
 	}
-	
+
 }
 public class EmployeeManagementSystem {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		
+
 		System.out.print("Enter the Employee Id : ");
 		int id = sc.nextInt();
 		sc.nextLine();
-		
+
 		System.out.print("Enter the Employee Name: ");
 		String name = sc.nextLine();
-		
+
 		System.out.print("Monthly Salary : " );
 		double salary = sc.nextDouble();
-		
+
 		System.out.print("Benefits: ");
 		double benefits =sc.nextDouble();
-		
+
 		if(name.trim().isEmpty()) {
 			 System.out.println("Error: Employee name cannot be empty.");
 		}else if (salary<0){
@@ -70,9 +70,9 @@ public class EmployeeManagementSystem {
 			emp.generatePayroll();
 			System.out.println("Total Salary : "+emp.calculateSalary());
 		}
-		
-		
-		
+
+
+
 	}
 
 }

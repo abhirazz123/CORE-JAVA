@@ -16,7 +16,7 @@ public class Sample {
 		s.i1 = 20;
 		System.out.println(s.i1);
 		s = null;
-	
+
 		return s;
 	}
 }

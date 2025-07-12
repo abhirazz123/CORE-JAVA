@@ -27,14 +27,20 @@ class Axis extends Bank {
 
 	@Override
 	public void withdraw(double amount) {
-		if (amount > 0) System.out.println("Withdrawal of " + amount + " from Axis Bank successful.");
-		else System.out.println("Invalid withdrawal amount.");
+		if (amount > 0) {
+			System.out.println("Withdrawal of " + amount + " from Axis Bank successful.");
+		} else {
+			System.out.println("Invalid withdrawal amount.");
+		}
 	}
 
 	@Override
 	public void deposit(double amount) {
-		if (amount > 0) System.out.println("Deposit of " + amount + " to Axis Bank successful.");
-		else System.out.println("Invalid deposit amount.");
+		if (amount > 0) {
+			System.out.println("Deposit of " + amount + " to Axis Bank successful.");
+		} else {
+			System.out.println("Invalid deposit amount.");
+		}
 	}
 
 	@Override
@@ -71,14 +77,20 @@ class ICICI extends Bank {
 
 	@Override
 	public void withdraw(double amount) {
-		if (amount > 0) System.out.println("Withdrawal of " + amount + " from ICICI Bank successful.");
-		else System.out.println("Invalid withdrawal amount.");
+		if (amount > 0) {
+			System.out.println("Withdrawal of " + amount + " from ICICI Bank successful.");
+		} else {
+			System.out.println("Invalid withdrawal amount.");
+		}
 	}
 
 	@Override
 	public void deposit(double amount) {
-		if (amount > 0) System.out.println("Deposit of " + amount + " to ICICI Bank successful.");
-		else System.out.println("Invalid deposit amount.");
+		if (amount > 0) {
+			System.out.println("Deposit of " + amount + " to ICICI Bank successful.");
+		} else {
+			System.out.println("Invalid deposit amount.");
+		}
 	}
 
 	@Override
@@ -114,14 +126,20 @@ class SBI extends Bank {
 
 	@Override
 	public void withdraw(double amount) {
-		if (amount > 0) System.out.println("Withdrawal of " + amount + " from SBI Bank successful.");
-		else System.out.println("Invalid withdrawal amount.");
+		if (amount > 0) {
+			System.out.println("Withdrawal of " + amount + " from SBI Bank successful.");
+		} else {
+			System.out.println("Invalid withdrawal amount.");
+		}
 	}
 
 	@Override
 	public void deposit(double amount) {
-		if (amount > 0) System.out.println("Deposit of " + amount + " to SBI Bank successful.");
-		else System.out.println("Invalid deposit amount.");
+		if (amount > 0) {
+			System.out.println("Deposit of " + amount + " to SBI Bank successful.");
+		} else {
+			System.out.println("Invalid deposit amount.");
+		}
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class Employee2 {
 			System.out.println("Employee is a Designer");
 		}else {
 			System.out.println("Employee is a Tester");
-			
+
 		}
 		emp2.Employee2Detlish();
 	}

@@ -48,7 +48,7 @@ private	double hostelFee;
 	public Hosteller(int studentId, String studentName, double examFee, double hostelFee) {
 		super(studentId, studentName, examFee);
 		if(hostelFee<=0) {
-			System.out.println("Error Invalid Input");	
+			System.out.println("Error Invalid Input");
 		}else {
 			this.hostelFee = hostelFee;
 		}
@@ -67,20 +67,20 @@ private	double hostelFee;
 }
 public class Tester {
 	public static void main(String[] args) {
-		
+
 		System.out.println("--- Regular Student ---");
 		Student s1 = new Student(1007, " Abhi ", 25000.0);
         System.out.println(s1.displayDetails());
         System.out.println("Remaining Balance: " + s1.payFee(25000.0));
         System.out.println();
-        
-        
+
+
         System.out.println("---Day Scholar----");
         DayScholar d1 = new DayScholar(1007, "Brian Lara", 25000.0, 5000.0);
         System.out.println(d1.displayDetails());
         System.out.println("Remaining Balance: " + d1.payFee(37000.0));
         System.out.println();
-        
+
         System.out.println("---Hosteller---");
         Hosteller H1 = new Hosteller(3, "Virat Kohli", 25000.0, 8000.0);
         System.out.println(H1.displayDetails());

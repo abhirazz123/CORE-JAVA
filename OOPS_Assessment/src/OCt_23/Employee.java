@@ -36,29 +36,29 @@ public class Employee {
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.print("Enter the First Name : ");
 		String FirstName = sc.nextLine();
-		
+
 		System.out.print("Enter the Lirst Name : ");
 		String LastName = sc.nextLine();
-		
+
 		System.out.print("Enter the Employee Id : ");
 		int EmployeeId = sc.nextInt();
-		
-		
+
+
 		System.out.print("Enter the Employee Salary : ");
 		double Salary = sc.nextDouble();
-		
+
 		System.out.print("Enter the no of project : ");
 		int NoOfproject = sc.nextInt();
-		
+
 		Employee emp = new Employee();
 		emp.setEmployeeData(FirstName, LastName, EmployeeId, Salary, NoOfproject);
-		
+
 		emp.calculateSalary();
 		emp.displayDetails();
-		
+
 	}
 
 }

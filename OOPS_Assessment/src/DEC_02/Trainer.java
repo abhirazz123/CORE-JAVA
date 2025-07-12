@@ -9,6 +9,7 @@ public class Trainer extends Employee {
 		this.batchCount = batchCount;
 		this.perkPerBatch = perkPerBatch;
 	}
+	@Override
 	public double 	calculateGrossSalary() {
 		return basicSalary + HRAPer + DAPer + (batchCount * perkPerBatch);
 

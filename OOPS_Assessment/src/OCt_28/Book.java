@@ -4,13 +4,13 @@ public class Book {
 	String title;
 	String author;
 	double price;
-	
+
 	public  Book(String title, String author, double price) {
 		this.title = title;
 		this.author = author;
 		this.price = price;
 	}
-	
+
 	public void applyDiscount(double Discount){
 		if(Discount<0) {
 			System.out.println("Error: Invalid discount percentage");
@@ -28,12 +28,12 @@ public class Book {
 		Book book1 = new Book("1984", "George Orwell", 14.391);
         book1.applyDiscount(-10);
         book1.printDetails();
-		
+
 		System.out.println();
-		
+
 		Book book2 = new Book("Negative Price Book", "No Author", -5.0);
         book2.printDetails();
-		
-		
+
+
 	}
 }

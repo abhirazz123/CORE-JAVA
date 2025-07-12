@@ -4,7 +4,7 @@ public class Employee {
 	private int empId;
 	private String empName;
 	private Address address;
-	
+
 	public Employee(int empId, String empName, Address address) {
 		this.empId = empId;
 		this.empName = empName;
@@ -15,6 +15,6 @@ public class Employee {
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", address=" + address + "]";
 	}
-	
+
 
 }

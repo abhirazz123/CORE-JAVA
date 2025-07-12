@@ -11,8 +11,8 @@ public class Example4
 		Example4 e1=new Example4();
 		Example4 e2=new Example4();
 		Example e3=null;
-		e1.a=50;
-		e1.b=60;
+		Example4.a=50;
+		Example4.b=60;
 		e1.x=70;
 		e1.y=80;
 	}

@@ -12,8 +12,9 @@ public class OopsTest{
     }
 }
 class NIT extends OopsTest{
-    public String nit() {
+    @Override
+	public String nit() {
 		return "to Naresh I Technologies!";
-    	
+
     }
-}	
+}

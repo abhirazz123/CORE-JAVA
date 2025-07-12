@@ -16,7 +16,8 @@ class NITI extends NIT7 {
         return super.nit(); // returns 10
     }
 
-    public int nit1() {
+    @Override
+	public int nit1() {
         return 15;
     }
 
@@ -32,16 +33,16 @@ class NITII extends NITI {
     }
 //     int nit1() {
 //		return 50;
-//    	
+//
 //    }
 }
 
 public class OopsTest7 {
     public static void main(String[] args) {
-        NIT7 object = new NIT7();     
-        NIT7 object1 = new NITI();    
-        NIT7 object2 = new NITII();    
-        NITI object3 = new NITII();   
+        NIT7 object = new NIT7();
+        NIT7 object1 = new NITI();
+        NIT7 object2 = new NITII();
+        NITI object3 = new NITII();
 
         System.out.println(
             object.nit()     // NIT7.nit() → 10

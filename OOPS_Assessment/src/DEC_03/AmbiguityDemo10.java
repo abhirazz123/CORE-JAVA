@@ -1,6 +1,6 @@
 package DEC_03;
 
-class Test10{		    
+class Test10{
 	public void accept(int b, int i) {
 		System.out.println("int-int");
 	}
@@ -13,7 +13,7 @@ class Test10{
 }
 public class AmbiguityDemo10{
 	public static void main(String[] args) {
-		Test10 t1 = new Test10(); 
+		Test10 t1 = new Test10();
 		byte b1 = 1;
 		byte b2 = 2;
 		t1.accept(b1, b2);

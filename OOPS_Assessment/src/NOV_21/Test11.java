@@ -1,7 +1,7 @@
 package NOV_21;
 
 public class Test11 {
-	static int x=10; 
+	static int x=10;
 	static int y=20;
 	static {
 		System.out.println("---Test11 SB1 called---");
@@ -21,4 +21,4 @@ public class Test11 {
 		System.out.println("X : "+x);
 		System.out.println("y : "+y);
 	}
-} 
+}

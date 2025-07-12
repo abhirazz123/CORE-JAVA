@@ -22,12 +22,12 @@ public class InventoryItem {
 			if(quantityInStock<0) {
 				System.out.println("Error: Invalid quantity");
 				this.quantityInStock = 0;
-				
+
 			}
 			else {
 				this.quantityInStock = quantityInStock;
 			}
-			
+
 		}
 
 		public String getItemName() {
@@ -82,7 +82,7 @@ public class InventoryItem {
 	        // Test Case 4
 	        InventoryItem item4 = new InventoryItem("", 8.0, 10);
 	        item4.printDetails();
-	        
-	        
+
+
 		}
 }

@@ -13,19 +13,20 @@ class Shape {
 		case 0 :
 			return new Circle() ;
 
-		case 1 : 
+		case 1 :
 			return new Square() ;
 
-		case 2 : 
+		case 2 :
 			return new	Triangle ();
 		}
-		return new Shape();	 
+		return new Shape();
 	}
 }
 class Circle extends Shape {
 	public void	draw() {
 		System.out.println("Circle draw");
 	}
+	@Override
 	public void erase() {
 		System.out.println("Circle erase");
 	}
@@ -35,6 +36,7 @@ class Triangle extends Shape{
 	public void	draw() {
 		System.out.println("Triangle draw");
 	}
+	@Override
 	public void erase() {
 		System.out.println("Triangle erase");
 	}

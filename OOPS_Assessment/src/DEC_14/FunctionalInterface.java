@@ -1,5 +1,5 @@
 package DEC_14;
-interface Add{
+interface Add {
 	int add(int b);
 }
 
@@ -9,5 +9,5 @@ public class FunctionalInterface {
 		Add add = (int b)->b;
 		System.out.println(add.add(a));
 	}
-
+	
 }

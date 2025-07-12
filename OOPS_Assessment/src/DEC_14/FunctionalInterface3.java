@@ -2,7 +2,7 @@ package DEC_14;
 interface Add3{
 	int Add3(int b);
 	//int add3(int a, int b);//Error
-	
+
 }
 
 public class FunctionalInterface3 {

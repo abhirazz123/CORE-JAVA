@@ -1,0 +1,15 @@
+package DEC_27;
+
+public class Main {
+	public static void main(String[] args) {
+		try {
+			int [] arr = new int[5];
+			arr[0] = 15;
+		} catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+		}finally {
+			System.out.println("Finally block executed");
+		}
+	}
+
+}

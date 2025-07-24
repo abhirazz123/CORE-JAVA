@@ -1,19 +1,17 @@
 package DEC_31;
 
-import java.util.Scanner;
-
-class FinancialTransaction {
+public class FinancialTransaction {
     public void processTransaction(double amount, long accountNumber) {
+        System.out.println("Processing transaction...");
         try {
             if (amount <= 0) {
                 throw new IllegalArgumentException("Transaction amount must be positive.");
             }
 
-            // Simulating success
-            System.out.println("Processing transaction...");
-            System.out.println("Transaction successful: Amount Rs." + amount + " transferred to account " + accountNumber);
+            // You could add more account number validation logic here if needed
+            System.out.printf("Transaction successful: Amount Rs.%.1f transferred to account %d%n", amount, accountNumber);
 
-        } catch (RuntimeException e) {
+        } catch (IllegalArgumentException  e) {
             System.out.println("Error processing transaction: " + e.getMessage());
         }
     }
